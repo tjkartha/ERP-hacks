@@ -1,7 +1,7 @@
 import pandas as pd
 a = pd.read_csv("export.csv")
 
-a = a.iloc[1:, 1]
+a = a.iloc[0:, 1]
 
 names = []
 rolls = []
